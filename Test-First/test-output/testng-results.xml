@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-31T14:01:10 CEST" name="Default suite" finished-at="2021-07-31T14:01:23 CEST" duration-ms="12976">
+    <groups>
+    </groups>
+    <test started-at="2021-07-31T14:01:10 CEST" name="Default test" finished-at="2021-07-31T14:01:23 CEST" duration-ms="12976">
+      <class name="com.tests.Logout">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.Logout@27f981c6]" started-at="2021-07-31T14:01:10 CEST" name="openBrowser" finished-at="2021-07-31T14:01:16 CEST" duration-ms="6334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="createAccount()[pri:0, instance:com.tests.Logout@27f981c6]" started-at="2021-07-31T14:01:16 CEST" name="createAccount" finished-at="2021-07-31T14:01:22 CEST" duration-ms="5827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.Logout@27f981c6]" started-at="2021-07-31T14:01:22 CEST" name="closeBrowser" finished-at="2021-07-31T14:01:23 CEST" duration-ms="779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.Logout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

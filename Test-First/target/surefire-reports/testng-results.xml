@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="208234" started-at="2021-07-20T16:12:06 CEST" finished-at="2021-07-20T16:15:35 CEST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="6" started-at="2021-07-20T16:12:06 CEST" finished-at="2021-07-20T16:12:06 CEST">
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="208234" started-at="2021-07-20T16:12:06 CEST" finished-at="2021-07-20T16:15:35 CEST">
+      <class name="com.tests.SearchAndViewProducts">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.SearchAndViewProducts@3043fe0e]" name="openBrowser" is-config="true" duration-ms="5899" started-at="2021-07-20T16:13:04 CEST" finished-at="2021-07-20T16:13:10 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="LoginAndSearch()[pri:0, instance:com.tests.SearchAndViewProducts@3043fe0e]" name="LoginAndSearch" duration-ms="12751" started-at="2021-07-20T16:13:10 CEST" finished-at="2021-07-20T16:13:23 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndSearch -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.SearchAndViewProducts@3043fe0e]" name="closeBrowser" is-config="true" duration-ms="705" started-at="2021-07-20T16:13:23 CEST" finished-at="2021-07-20T16:13:24 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.SearchAndViewProducts -->
+      <class name="com.tests.ChangePassword">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.ChangePassword@17d677df]" name="openBrowser" is-config="true" duration-ms="6347" started-at="2021-07-20T16:12:51 CEST" finished-at="2021-07-20T16:12:57 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:com.tests.ChangePassword@17d677df]" name="createAccount" duration-ms="6347" started-at="2021-07-20T16:12:57 CEST" finished-at="2021-07-20T16:13:03 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.ChangePassword@17d677df]" name="closeBrowser" is-config="true" duration-ms="775" started-at="2021-07-20T16:13:03 CEST" finished-at="2021-07-20T16:13:04 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.ChangePassword -->
+      <class name="com.tests.AddItemToWishList">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.AddItemToWishList@78e67e0a]" name="openBrowser" is-config="true" duration-ms="6439" started-at="2021-07-20T16:13:24 CEST" finished-at="2021-07-20T16:13:30 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="LoginAndSearch()[pri:0, instance:com.tests.AddItemToWishList@78e67e0a]" name="LoginAndSearch" duration-ms="17600" started-at="2021-07-20T16:13:30 CEST" finished-at="2021-07-20T16:13:48 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndSearch -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.AddItemToWishList@78e67e0a]" name="closeBrowser" is-config="true" duration-ms="767" started-at="2021-07-20T16:13:48 CEST" finished-at="2021-07-20T16:13:48 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.AddItemToWishList -->
+      <class name="com.tests.Logout">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.Logout@76b0bfab]" name="openBrowser" is-config="true" duration-ms="5806" started-at="2021-07-20T16:12:39 CEST" finished-at="2021-07-20T16:12:45 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:com.tests.Logout@76b0bfab]" name="createAccount" duration-ms="5216" started-at="2021-07-20T16:12:45 CEST" finished-at="2021-07-20T16:12:50 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.Logout@76b0bfab]" name="closeBrowser" is-config="true" duration-ms="757" started-at="2021-07-20T16:12:50 CEST" finished-at="2021-07-20T16:12:51 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.Logout -->
+      <class name="com.tests.ReturnOrder">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.ReturnOrder@4b553d26]" name="openBrowser" is-config="true" duration-ms="6361" started-at="2021-07-20T16:15:20 CEST" finished-at="2021-07-20T16:15:26 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:com.tests.ReturnOrder@4b553d26]" name="createAccount" duration-ms="7917" started-at="2021-07-20T16:15:26 CEST" finished-at="2021-07-20T16:15:34 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.ReturnOrder@4b553d26]" name="closeBrowser" is-config="true" duration-ms="696" started-at="2021-07-20T16:15:34 CEST" finished-at="2021-07-20T16:15:35 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.ReturnOrder -->
+      <class name="com.tests.Login">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.Login@7a765367]" name="openBrowser" is-config="true" duration-ms="6457" started-at="2021-07-20T16:12:28 CEST" finished-at="2021-07-20T16:12:35 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:com.tests.Login@7a765367]" name="createAccount" duration-ms="3493" started-at="2021-07-20T16:12:35 CEST" finished-at="2021-07-20T16:12:38 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.Login@7a765367]" name="closeBrowser" is-config="true" duration-ms="644" started-at="2021-07-20T16:12:38 CEST" finished-at="2021-07-20T16:12:39 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.Login -->
+      <class name="com.tests.AddItemToChartS">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.AddItemToChartS@2f943d71]" name="openBrowser" is-config="true" duration-ms="5817" started-at="2021-07-20T16:13:48 CEST" finished-at="2021-07-20T16:13:54 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="LoginAndSearch()[pri:0, instance:com.tests.AddItemToChartS@2f943d71]" name="LoginAndSearch" duration-ms="14950" started-at="2021-07-20T16:13:54 CEST" finished-at="2021-07-20T16:14:09 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndSearch -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.AddItemToChartS@2f943d71]" name="closeBrowser" is-config="true" duration-ms="761" started-at="2021-07-20T16:14:09 CEST" finished-at="2021-07-20T16:14:10 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.AddItemToChartS -->
+      <class name="com.tests.CreateAccount">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.CreateAccount@52feb982]" name="openBrowser" is-config="true" duration-ms="5783" started-at="2021-07-20T16:12:17 CEST" finished-at="2021-07-20T16:12:23 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:com.tests.CreateAccount@52feb982]" name="createAccount" duration-ms="4906" started-at="2021-07-20T16:12:23 CEST" finished-at="2021-07-20T16:12:28 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.CreateAccount@52feb982]" name="closeBrowser" is-config="true" duration-ms="814" started-at="2021-07-20T16:12:28 CEST" finished-at="2021-07-20T16:12:28 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.CreateAccount -->
+      <class name="com.tests.AddItemToChartAndCheckout">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.AddItemToChartAndCheckout@80503]" name="openBrowser" is-config="true" duration-ms="6350" started-at="2021-07-20T16:14:10 CEST" finished-at="2021-07-20T16:14:16 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="LoginAndSearch()[pri:0, instance:com.tests.AddItemToChartAndCheckout@80503]" name="LoginAndSearch" duration-ms="62628" started-at="2021-07-20T16:14:16 CEST" finished-at="2021-07-20T16:15:19 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndSearch -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.AddItemToChartAndCheckout@80503]" name="closeBrowser" is-config="true" duration-ms="684" started-at="2021-07-20T16:15:19 CEST" finished-at="2021-07-20T16:15:20 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.AddItemToChartAndCheckout -->
+      <class name="com.tests.writeFakeMailtoExcel">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.tests.writeFakeMailtoExcel@56aac163]" name="openBrowser" is-config="true" duration-ms="7995" started-at="2021-07-20T16:12:06 CEST" finished-at="2021-07-20T16:12:14 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="GetFakeMailForRegistration()[pri:0, instance:com.tests.writeFakeMailtoExcel@56aac163]" name="GetFakeMailForRegistration" duration-ms="1832" started-at="2021-07-20T16:12:14 CEST" finished-at="2021-07-20T16:12:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetFakeMailForRegistration -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.tests.writeFakeMailtoExcel@56aac163]" name="closeBrowser" is-config="true" duration-ms="693" started-at="2021-07-20T16:12:16 CEST" finished-at="2021-07-20T16:12:17 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.writeFakeMailtoExcel -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
